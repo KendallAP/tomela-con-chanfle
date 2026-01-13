@@ -1,6 +1,6 @@
 print ("hola mundo")
 
-edad = 21 
+edad = 22 
 
 NOMBRE = "Kendall"
 
