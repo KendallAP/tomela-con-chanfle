@@ -1,2 +1,5 @@
-a = tomela zv 
-b = llevela zv
+a = 'tomela zv'
+
+b = 'llevela p'
+
+print(a != b) 
