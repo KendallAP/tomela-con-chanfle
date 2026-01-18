@@ -1,4 +1,5 @@
 #le pedimos al usuario que eliga un numero entre uno y tres
+
 num = int(input("Elige un número entre uno y tres: "))
 
 if num == 1:
