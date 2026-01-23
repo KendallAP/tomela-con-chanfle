@@ -6,9 +6,17 @@ public class ejercicio4 {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        
+         Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingresa los grados celcius: ");
 
-        System.out.print("Ingresa los grados Celsius: ");
+        double celcius = scanner.nextDouble();
+
+        double farenheit = CelciusAFarenheit(celcius);
+
+        System.out.println(celcius + " grados Celsius son " + farenheit + " grados");
+        scanner.close();
+        
         
     }
 }
