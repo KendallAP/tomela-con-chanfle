@@ -9,8 +9,15 @@ public class ejercicio4 {
         
          Scanner scanner = new Scanner(System.in);
         System.out.print("Ingresa los grados celcius: ");
+         int celciuscasteado = (int) celcius;
+         int celcius = scanner.nextLine();
+         
 
-        double celcius = scanner.nextLine();
+        double farenheit = CelciusAFarenheit(celcius);
+
+        System.out.println(celcius + " grados celcius son " + farenheit + " grados farenheit.");
+        scanner.close();
+
 
        
         
